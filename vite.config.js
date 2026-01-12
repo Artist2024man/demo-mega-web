@@ -8,7 +8,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'https://mega.byeing.com',
+        target: 'your_api_domain',
         changeOrigin: true,
         secure: true
       }
