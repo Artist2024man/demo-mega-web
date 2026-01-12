@@ -2,7 +2,7 @@ import axios from 'axios'
 import { getToken, removeToken } from './auth'
 
 // 开发环境使用代理，生产环境使用实际的后端地址
-const BASE_URL = import.meta.env.PROD ? 'https://mega.byeing.com' : ''
+const BASE_URL = import.meta.env.PROD ? 'your_domain' : ''
 
 const instance = axios.create({
   baseURL: BASE_URL,
